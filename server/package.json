@@ -1,0 +1,22 @@
+{
+  "name": "twitter-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "bcrypt": "latest",
+    "cookie-parser": "^1.4.7",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "^4.17.1",
+    "faker": "^6.6.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "latest",
+    "nodemon": "latest",
+    "socket.io": "^4.8.0"
+  }
+}
